@@ -1,0 +1,24 @@
+# Ignore os arquivos em qualquer pasta
+**/.env
+**/odbc.ini
+
+# ctr-portainer (Ignorar pastas de configuração e dados)
+/stack/ctr-portainer/data
+
+# ctr-mysql (Ignorar pastas de configuração e dados)
+/stack/ctr-mysql/databases
+
+# ctr-grafana (Ignorar pastas de configuração e dados)
+/stack/ctr-grafana/config
+/stack/ctr-grafana/data
+
+# ctr-haos (Ignorar pastas de configuração e dados)
+/stack/ctr-haos
+
+# ctr-nginx-proxy-manager (Ignorar pastas de configuração e dados)
+/stack/ctr-nginx/data
+/stack/ctr-nginx/letsencrypt
+/stack/ctr-nginx/accounts
+
+# Database do BSKP (Ignorar pastas de configuração e dados)
+/databases
